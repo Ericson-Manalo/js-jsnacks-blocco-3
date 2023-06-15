@@ -2,7 +2,7 @@
   import Vue3Header from './components/Vue3Header.vue';
 
   export default{
-    name: AppHeader,
+    name: 'AppHeader',
     components:{
       Vue3Header,
     }
