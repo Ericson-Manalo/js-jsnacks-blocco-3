@@ -1,18 +1,19 @@
 <script>
-  import Vue3Header from './components/Vue3Header.vue';
+  import AppHeader from './components/AppHeader.vue';
 
   export default{
     name: 'AppHeader',
     components:{
-      Vue3Header,
+      AppHeader,
     }
   }
 </script>
 
 <template>
-  <Vue3Header/>
+  <AppHeader/>
+  <NavLink/>
 </template>
 
 <style lang="scss">
-  @import './components/styles/general.scss';
+  @import './styles/general.scss';
 </style>
